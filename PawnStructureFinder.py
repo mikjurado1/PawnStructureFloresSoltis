@@ -59,7 +59,7 @@ index e6d8d4f7d1fb24de9ba1adb69b888759fe8cfe29..b44b744ed492bdae3e3b7fd00201e1d5
 def _format_detection(game_idx, title, structure, fullmove, moved_side, san):
     """Devuelve la línea de resultado con el formato requerido."""
     return (
-        f"Partida #{game_idx} | {title} - {structure} - "
+        f"Partida #{game_idx} | {title} - Pawn Structure Detected: {structure} - "
         f"Detectada en jugada {fullmove} tras {moved_side} jugar {san}"
     )
 
